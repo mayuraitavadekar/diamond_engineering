@@ -1,0 +1,124 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	color: #222;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+h1,h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#subtitle {
+	font-size: 15px;
+}
+
+.navbar-brand {
+	text-align: center;
+}
+
+.navbar-brand img {
+	height: 60px;
+	width: 150px;
+}
+
+.carousel-inner img {
+	height:85vh;
+	width: 100%;
+	background-size: cover;
+}
+
+.carousel-inner .carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-25%);
+	color: white;
+	z-index: 1;
+
+}
+
+.card img {
+	height : 300px;
+}
+
+.card .card-body h5 {
+	font-size: 15px;
+	text-align: center;
+}
+
+.container-fluid hr {
+	border-top: 1px solid #b4b4b4;
+	width: 95%;
+}
+
+.container-fluid #iso-certificate {
+	height: 70vh;
+	right: 50%;
+	transform: translateX(50%)
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+}
+
+
+
+.row #valued-custs {
+	margin-top: 100px;
+}
+
+.col-4 .card {
+	height : 150px;
+
+}
+
+a .btn-outline-primary {
+	color: white;
+}
+
+.container-fluid .card .card-body h5 {
+    color: black;
+}
+
+#iso-certificate:hover {
+	z-index: 2;
+}
+
+.jumbotron {
+	border-radius: 0rem;
+}
+
+p {
+	margin-bottom: 0rem;
+}
+
+li {
+	font-size: 20px;
+}
+
+footer p {
+	padding-top: 10px;
+}
+
+ul.navbar-nav {
+	margin-right: 50px;
+}
+div#product-page.jumbotron {
+	border-radius: 0rem;
+}
+
+.container-fluid #iso-certificate {
+	height: 70vh;
+	right:0;
+	transform: translateX(-10%);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
